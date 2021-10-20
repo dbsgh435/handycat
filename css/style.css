@@ -1,0 +1,98 @@
+@import url(reset.css);
+
+.slide-wrap {
+  width: 1920px;
+  height: 747px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: hidden;
+}
+.slide {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+}
+
+header {
+  position: relative;
+  height: 747px;
+}
+.header-bar {
+  position: absolute;
+  width: 1920px;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.header-bar {
+  height: 200px;
+  background-color: black;
+}
+.header-bar-box {
+  width: 1180px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-bar_menu {
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: relative;
+  height: 100%;
+}
+.header-bar_menu>div>ul {
+  display: flex;
+}
+
+.menu_top a {
+  display: block;
+  width: 120px;
+  height: 50px;
+  line-height: 50px;
+  margin-top: 30px;
+  font-size: 22px;
+}
+
+.gnb>li {
+  font-size: 26px;
+}
+.gnb a {
+  display: block;
+  width: 200px;
+  height: 80px;
+  line-height: 80px;
+}
+.menu_bottom {
+  position: absolute;
+  top: 100%;
+  transform: translateY(-80px);
+}
+.lnb {
+  display: none;
+}
+
+.header-button-box {
+  height: 547px;
+  width: 1180px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.slide-button {
+  cursor: pointer;
+}
