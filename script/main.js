@@ -1,4 +1,5 @@
 $(function() {
+
   setInterval(function() {
     $(".slide").animate({
       left : '-100%'
@@ -9,4 +10,11 @@ $(function() {
       },0)
     }, 0)
   },3000)
+
+  $(".gnb").mouseover(function() {
+    $(".lnb").stop().slideDown()
+  })
+  $(".gnb").mouseout(function() {
+    $(".lnb").stop().slideUp()
+  })
 })
